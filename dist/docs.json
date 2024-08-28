@@ -161,6 +161,13 @@
             "Style"
           ],
           "type": "Style"
+        },
+        {
+          "name": "isModalOpen",
+          "tags": [],
+          "docs": "In iOS, passed if a modal is open and status bar should be lightContent.",
+          "complexTypes": [],
+          "type": "boolean | undefined"
         }
       ]
     },
