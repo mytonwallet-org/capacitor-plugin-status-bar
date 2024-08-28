@@ -38,7 +38,7 @@ public class StatusBarPlugin: CAPPlugin {
                 if let rootVC = (UIApplication.shared.delegate?.window??.rootViewController as? CAPBridgeViewController) {
                     rootVC.bridge?.statusBarStyle = newStyle
                 }
-                if options["isInModal"] as? Bool == true {
+                if options["isModalOpen"] as? Bool == true {
                     bridge?.statusBarStyle = .lightContent
                 }
             }
